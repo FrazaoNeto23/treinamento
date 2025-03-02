@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomia</title>
     <link rel="stylesheet" href="style.css">
-    <title>Astromic</title>
 </head>
 <body>
-    <img src="" >
-    <div>
-        <h1>AAAAAAAAA</h1>
-        <p>BBBBBBBBBBBBBBBBBBBBB</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#planetas">Planetas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bem-vindo ao Mundo da Astronomia</h1>
+        <p>Explore os mistérios do universo e descubra as maravilhas do espaço.</p>
+        <button>Saiba Mais</button>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre a Astronomia</h2>
+        <p>A astronomia é a ciência que estuda os corpos celestes, como estrelas, planetas, cometas e galáxias.</p>
+    </section>
+
+    <section id="planetas">
+        <h2>Planetas do Sistema Solar</h2>
+        /*<div class="carrossel">
+            <img src="" alt="Mercúrio" onclick="openImage('https://via.placeholder.com/800x600?text=Mercúrio')">
+            <img src="" alt="Vênus" onclick="openImage('https://via.placeholder.com/800x600?text=Vênus')">
+            <img src="" alt="Terra" onclick="openImage('https://via.placeholder.com/800x600?text=Terra')">
+            <img src="" alt="Marte" onclick="openImage('https://via.placeholder.com/800x600?text=Marte')">
+            <img src="" alt="Júpiter" onclick="openImage('https://via.placeholder.com/800x600?text=Júpiter')">
+            <img src="" alt="Saturno" onclick="openImage('https://via.placeholder.com/800x600?text=Saturno')">
+            <img src="" alt="Urano" onclick="openImage('https://via.placeholder.com/800x600?text=Urano')">
+            <img src="" alt="Netuno" onclick="openImage('https://via.placeholder.com/800x600?text=Netuno')">
+        </div>*/
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Astronomia. Todos os direitos reservados.</p>
+    </footer>
+
+    <div id="modal" class="modal" onclick="closeImage()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
