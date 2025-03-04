@@ -1,66 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #0a0a0a;
-    color: #ffffff;
+    font-family: Arial, sans-serif;
+    background-image: url('https://example.com/imagem-do-planeta.jpg'); /* Substitua pelo URL da imagem do planeta */
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 header {
-    background-color: #1a1a1a;
-    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 10px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin-right: 20px;
 }
 
 nav a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #ffcc00;
 }
 
 section {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para seções */
+    margin: 20px;
     padding: 20px;
-    text-align: center;
+    border-radius: 10px;
 }
 
 h1, h2 {
-    color: #ffcc00;
+    text-align: center;
 }
 
 button {
-    background-color: #ffcc00;
-    border: none;
+    display: block;
+    margin: 0 auto;
     padding: 10px 20px;
-    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Botão semi-transparente */
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s;
 }
 
 button:hover {
-    background-color: #e6b800;
-    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background-color: #1a1a1a;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
